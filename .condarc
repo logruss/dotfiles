@@ -1,0 +1,5 @@
+channels:
+  - fastai
+  - pytorch
+  - defaults
+ssl_verify: true
