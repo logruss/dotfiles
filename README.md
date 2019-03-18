@@ -16,8 +16,8 @@ mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 From https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
 
 ```
-pip install --user git+git://github.com/powerline/powerline
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+pip install --user git+git://github.com/powerline/powerline
 echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> ~/.zshrc
 source ~/.zshrc
 echo ".cfg" >> .gitignore
