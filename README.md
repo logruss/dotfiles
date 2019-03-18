@@ -29,6 +29,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 #### Tools
 sudo apt-get install ctags
+sudo apt-get install ctags
 
 #### Extra configurations
 ZSH_THEME="af-magic"
